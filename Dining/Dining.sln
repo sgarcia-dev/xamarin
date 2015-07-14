@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dining", "Dining\Dining.csproj", "{A73AB727-6451-41C1-874C-1DE413E85D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dining.UITests", "Dining.UITests\Dining.UITests.csproj", "{B28B0FE6-69D6-4375-9E4E-B16670AD6665}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A73AB727-6451-41C1-874C-1DE413E85D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73AB727-6451-41C1-874C-1DE413E85D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73AB727-6451-41C1-874C-1DE413E85D13}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A73AB727-6451-41C1-874C-1DE413E85D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73AB727-6451-41C1-874C-1DE413E85D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28B0FE6-69D6-4375-9E4E-B16670AD6665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28B0FE6-69D6-4375-9E4E-B16670AD6665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28B0FE6-69D6-4375-9E4E-B16670AD6665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28B0FE6-69D6-4375-9E4E-B16670AD6665}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
