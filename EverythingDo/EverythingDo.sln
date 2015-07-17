@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EverythingDo", "EverythingDo\EverythingDo.csproj", "{34B7792A-AAAB-4AB9-B365-B2307B193474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EverythingDoAndroid", "EverythingDoAndroid\EverythingDoAndroid.csproj", "{9137DEBA-5649-4F91-B286-38F2A8AF1A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EverythingDoAndroid.UITests", "EverythingDoAndroid.UITests\EverythingDoAndroid.UITests.csproj", "{8842EBD3-6373-483B-86EF-C0B77EC316E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34B7792A-AAAB-4AB9-B365-B2307B193474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B7792A-AAAB-4AB9-B365-B2307B193474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B7792A-AAAB-4AB9-B365-B2307B193474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B7792A-AAAB-4AB9-B365-B2307B193474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8842EBD3-6373-483B-86EF-C0B77EC316E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8842EBD3-6373-483B-86EF-C0B77EC316E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8842EBD3-6373-483B-86EF-C0B77EC316E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8842EBD3-6373-483B-86EF-C0B77EC316E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9137DEBA-5649-4F91-B286-38F2A8AF1A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9137DEBA-5649-4F91-B286-38F2A8AF1A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9137DEBA-5649-4F91-B286-38F2A8AF1A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9137DEBA-5649-4F91-B286-38F2A8AF1A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

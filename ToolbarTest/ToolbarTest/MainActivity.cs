@@ -23,6 +23,12 @@ namespace ToolbarTest
 			SetSupportActionBar (toolbar);
 			SupportActionBar.Title = "Hello from Appcompat Toolbar";
 		}
+
+		public override bool OnCreateOptionsMenu (IMenu menu)
+		{
+			MenuInflater.Inflate (Resource.Menu.mainmenu, menu);
+			return base.OnCreateOptionsMenu (menu);
+		}
 	}
 }
 

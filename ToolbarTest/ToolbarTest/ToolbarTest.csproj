@@ -26,7 +26,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <AndroidLinkMode>None</AndroidLinkMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -36,6 +35,7 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidSupportedAbis>armeabi-v7a</AndroidSupportedAbis>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -71,6 +71,27 @@
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\layout\toolbar.axml" />
     <AndroidResource Include="Resources\values-v21\styles.xml" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_content_create.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_content_redo.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_content_save.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_content_undo.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_social_share.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_content_create.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_content_redo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_content_save.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_content_undo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_social_share.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_content_create.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_content_redo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_content_save.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_content_undo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_social_share.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_content_create.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_content_redo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_content_save.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_content_undo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_social_share.png" />
+    <AndroidResource Include="Resources\menu\mainmenu.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -81,5 +102,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\values-v21\" />
+    <Folder Include="Resources\menu\" />
   </ItemGroup>
 </Project>
